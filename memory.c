@@ -2,7 +2,7 @@
 
 /**
  * bfree - free ptr and NULL addres
- * @pointer: addres of ptr to be free
+ * @ptr: addres of ptr to be free
  *
  * Return: 1 if freed, o/w 0.
  */
