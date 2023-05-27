@@ -2,7 +2,7 @@
 
 /**
  * _eputs - prints input str
- * @string: str be printed.
+ * @str: string be printed.
  *
  * Return: Nothing
  */
@@ -66,7 +66,7 @@ int _putfd(char c, int fd)
 
 /**
  * _putsfd - print input str
- * @string: str to print
+ * @str: str to print
  * @fd: file descrip to be written
  *
  * Return: the number of chars put
