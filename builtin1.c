@@ -3,7 +3,7 @@
 /**
  * _myhistory - lists history list, one command line by line, preceded
  *              wit line num, starting from 0.
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *        constant func prototype.
  *  Return: Always 0
  */
@@ -15,8 +15,8 @@ int _myhistory(info_t *info)
 
 /**
  * unset_alias - sets alias to str
- * @infomation: parameter the structure
- * @string: str alias
+ * @info: parameter the structure
+ * @str: str alias
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -38,8 +38,8 @@ int unset_alias(info_t *info, char *str)
 
 /**
  * set_alias - set alias to str
- * @infomation: parameter the structure
- * @string: str alias
+ * @info: parameter the structure
+ * @str: str alias
  *
  * Return: Always 0 on success, 1 on error
  */
@@ -82,7 +82,7 @@ int print_alias(list_t *node)
 
 /**
  * _myalias - mimics the alias builtin (man alias)
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *          constant func prototype.
  *  Return: Always 0
  */
