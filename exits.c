@@ -2,8 +2,8 @@
 
 /**
  **_strncpy - copy str
- *@dest: dest str to copy to
- *@src: src str
+ *@dest: destination str to copy to
+ *@src: source string
  *@n: amount of chars to copy
  *Return: concatenated str
  */
@@ -32,8 +32,8 @@ char *_strncpy(char *dest, char *src, int n)
 
 /**
  **_strncat - concatenates two strs
- *@destination: first str
- *@source: second str
+ *@dest: first str
+ *@src: second str
  *@n: amount of bytes to maxize use
  *Return: concatenated str
  */
