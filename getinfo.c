@@ -2,7 +2,7 @@
 
 /**
  * clear_info - initializes the info_t structure
- * @information: structure addres
+ * @info: structure addres
  */
 void clear_info(info_t *info)
 {
@@ -14,7 +14,7 @@ void clear_info(info_t *info)
 
 /**
  * set_info - initializes the info_t struct
- * @information: structure addres
+ * @info: structure addres
  * @av: the av
  */
 void set_info(info_t *info, char **av)
@@ -45,7 +45,7 @@ void set_info(info_t *info, char **av)
 
 /**
  * free_info - free the info_t structure of fields
- * @information: the structure of addres
+ * @info: the structure of addres
  * @all: true if frees all the field
  */
 void free_info(info_t *info, int all)
