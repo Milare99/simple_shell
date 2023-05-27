@@ -33,7 +33,7 @@ void ffree(char **pp)
 
 /**
  * _realloc - realloc block of mem
- * @pointer:  ptr to previous malloc block
+ * @ptr:  ptr to previous malloc block
  * @old_size: byte size of the previous block
  * @new_size: byte size of the new block
  *
@@ -60,3 +60,4 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	free(ptr);
 	return (p);
 }
+
