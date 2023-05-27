@@ -30,7 +30,7 @@ int _erratoi(char *s)
 
 /**
  * print_error - to print err message
- * @information: parameter & return information structure
+ * @info: parameter & return information structure
  * @estr: the str containing specified err type
  * Return: 0 if no num in str, converted num o/w
  *        -1 on err
