@@ -3,8 +3,8 @@
 /**
  * add_node - add node to start list
  * @head: addres of ptr to head node
- * @string: string of field node
- * @number: node of index used by hist
+ * @str: string of field node
+ * @num: node of index used by hist
  *
  * Return: size of list
  */
@@ -36,8 +36,8 @@ list_t *add_node(list_t **head, const char *str, int num)
 /**
  * add_node_end - add node to end list
  * @head: addres of ptr to head node
- * @string: string of field node
- * @number: node of index used by hist
+ * @str: string of field node
+ * @num: node of index used by hist
  *
  * Return: size of list
  */
