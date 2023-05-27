@@ -2,7 +2,7 @@
 
 /**
  * is_cmd - determine file is an exe command
- * @information: the information of the structure
+ * @info: the information of the structure
  * @path: path file
  *
  * Return: 1 if true, 0 o/w
@@ -44,7 +44,7 @@ char *dup_chars(char *pathstr, int start, int stop)
 
 /**
  * find_path - find cmd in path of the str
- * @information: information structure
+ * @info: information structure
  * @pathstr: path str
  * @cmd: cmd to be found
  *
@@ -84,3 +84,4 @@ char *find_path(info_t *info, char *pathstr, char *cmd)
 	}
 	return (NULL);
 }
+
