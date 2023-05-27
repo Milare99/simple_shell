@@ -2,7 +2,7 @@
 
 /**
  * _myenv - prints current env
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *          constant func prototype.
  * Return: Always 0
  */
@@ -14,7 +14,7 @@ int _myenv(info_t *info)
 
 /**
  * _getenv - get value of envar
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  * @name: the environ var name
  *
  * Return: the value
@@ -37,7 +37,7 @@ char *_getenv(info_t *info, const char *name)
 /**
  * _mysetenv - Initialize a new environ var,
  *             or modify existin one
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *        constant func prototype.
  *  Return: Always 0
  */
@@ -55,7 +55,7 @@ int _mysetenv(info_t *info)
 
 /**
  * _myunsetenv - rv envar
- * @information: Structure containin the potential args. used to maintain
+ * @info: Structure containin the potential args. used to maintain
  *        constant func prototype.
  * Return: Always 0
  */
@@ -76,7 +76,7 @@ int _myunsetenv(info_t *info)
 
 /**
  * populate_env_list - populates environ linked list
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *          constant the func prototype.
  * Return: Always 0
  */
