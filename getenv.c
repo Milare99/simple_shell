@@ -19,10 +19,10 @@ char **get_environ(info_t *info)
 
 /**
  * _unsetenv - rv environ var
- * @information: Struc containin potential args. used to maintain
+ * @info: Struc containin potential args. used to maintain
  *        constant of func prototype.
  *  Return: 1 on del, 0 o/w
- * @variable: str environ var property
+ * @var: str environ var property
  */
 int _unsetenv(info_t *info, char *var)
 {
@@ -52,9 +52,9 @@ int _unsetenv(info_t *info, char *var)
 /**
  * _setenv - Initialize new envar,
  *             or modify exsting one
- * @information: Struc containi potential args. used to maintain
+ * @info: Struc containi potential args. used to maintain
  *        constant of func prototype.
- * @variable: str environ variable property
+ * @var: str environ variable property
  * @value: str envar value
  *  Return: Always 0
  */
