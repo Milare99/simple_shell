@@ -41,17 +41,18 @@ int hsh(info_t *info, char **av)
 		exit(info->err_num);
 	}
 	return (builtin_ret);
+
 }
 
 /**
  * find_builtin - find builtin command
- * @information: parameter & return information structure
- *
+ * @info: parameter & return information structure
  * Return: -1 if builtin not found,
- * 	0 if builtin exe successfully,
- * 	1 if builtin found but not successful,
- * 	2 if builtin signals exit()
+ * 0 if builtin exe successfully,
+ * 1 if builtin found but not successful,
+ * 2 if builtin signals exit()
  */
+
 int find_builtin(info_t *info)
 {
 	int i, built_in_ret = -1;
@@ -79,7 +80,7 @@ int find_builtin(info_t *info)
 
 /**
  * find_cmd - find command path
- * @information: parameter & return information structure
+ * @info: parameter & return information structure
  *
  * Return: void
  */
