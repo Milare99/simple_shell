@@ -2,7 +2,7 @@
 
 /**
  * **strtow - split str into words. repeated delim are ignored
- * @string: the input str
+ * @str: the input str
  * @d: delim str
  * Return: ptr arr of str, or NULL on failure
  */

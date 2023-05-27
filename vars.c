@@ -71,7 +71,7 @@ void check_chain(info_t *info, char *buf, size_t *p, size_t i, size_t len)
 
 /**
  * replace_alias - replace aliases in tokenize str
- * @information: parameter of the structure
+ * @info: parameter of the structure
  *
  * Return: 1 if replaced, 0 o/w
  */
