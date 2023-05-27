@@ -2,7 +2,7 @@
 
 /**
  * get_history_file - get history file
- * @information: the parameter of structure
+ * @info: the parameter of structure
  *
  * Return: alloc str containin the history file
  */
@@ -55,7 +55,7 @@ int write_history(info_t *info)
 
 /**
  * read_history - reads the history from file
- * @information: parameter of structure
+ * @info: parameter of structure
  *
  * Return: history count on succes, 0 o/w
  */
@@ -104,8 +104,8 @@ int read_history(info_t *info)
 
 /**
  * build_history_list - add entry to the history linked list
- * @information: Struc containin potential of args. used to maintain
- * @buffer: buf
+ * @info: Struc containin potential of args. used to maintain
+ * @buf: buf
  * @linecount: the hist linecount, histcount
  *
  * Return: Always 0
@@ -125,7 +125,7 @@ int build_history_list(info_t *info, char *buf, int linecount)
 
 /**
  * renumber_history - renum history of link list after it changes
- * @information: Struc containin the potential of args. used to maintain
+ * @info: Struc containin the potential of args. used to maintain
  *
  * Return: new history count
  */
